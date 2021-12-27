@@ -49,6 +49,47 @@
 
 
         </section>
+        <!--------------modal------->
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <form class="modal-form">
+                    <p class="title-modal-form">Оставьте свои данные, мы вам перезвоним</p>
+                    <label class="modal-forme-lable">Имя   
+                    <input class="modal-input" type="text">
+                    <svg class="icon-modal-lable">
+                        <use href='./images/icons/sprite.svg#modal-contact'></use>
+                    </svg>
+                   </label>
+                    <label class="modal-forme-lable">Телефон
+                    <input class="modal-input" type="tel">
+                    <svg class="icon-modal-lable">
+                        <use href='./images/icons/sprite.svg#modal-phone'></use>
+                    </svg>
+                    </label>
+                    <label class="modal-forme-lable">Почта
+                    <input class="modal-input" type="email">
+                    <svg class="icon-modal-lable">
+                        <use href='./images/icons/sprite.svg#modal-mail'></use>
+                    </svg>
+                    </label>
+                    <label class="modal-forme-lable">Комментарий
+                    <textarea class="modal-input modal-input-text" placeholder="Введите текст"></textarea>
+                    </label>
+                    <input type="checkbox" class="checkbox-item" id="cheking">
+                    <label class="checkbox-agree" for="cheking">
+                    Соглашаюсь с рассылкой и принимаю &nbsp; <a href="#">Условия договора</a>
+                </label>
+                    <button class="button-send" type="submit">Отправить</button>
+
+                <button class="button-modal" data-modal-close>
+                    <svg class="close-black">
+                        <use href='./images/icons/sprite.svg#close-black'></use>
+                    </svg>
+                </button>
+                </form>
+            </div>
+        </div>
+        <script src="./js/modal.js"></script>
     <!-------articles------>
     <section class="section-articles">
         <div class="container text">
@@ -319,19 +360,21 @@
                 </a></li>
             </ul>
         </div>
+
+
+    <!----------------footer subscription--------->
+        <form class="subscription">
+            <div class="subscription-form">
+                <h3 class="subscription-label">Подпишитесь на рассылку</h3>
+                <input class="subscription-input" type="email" name="subscription" id="subscription" placeholder="E-mail">
+            </div>
+         <button type="submit" class="subscription-button">Подписаться
+            <svg class="icon-send">
+             <use href='./images/icons/sprite.svg#icon-send'></use>
+            </svg>
+         </button>
+       </form>
     </div>
     </footer>
-    <!--------------modal------->
-    <div class="backdrop is-hidden"data-modal>
-        <div class="modal">
-            <button class="button-modal" data-modal-close>
-                <svg class="close-black">
-                    <use href='./images/icons/sprite.svg#close-black'></use>
-                </svg>
-                </button>
-        </div>
-    </div>
-    <script src="./js/modal.js"></script>
-    
 </body>
 </html>
