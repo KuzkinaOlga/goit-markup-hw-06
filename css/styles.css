@@ -210,7 +210,7 @@ address {
   background-color: var(--theme-color);
   color: #ffffff;
 }
-
+/*==========================modal===================*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -248,14 +248,12 @@ address {
 .button-modal {
   position: absolute;
   cursor: pointer;
-  top: 0;
-  right: 0;
+  top: 8px;
+  right: 8px;
   width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  margin-top: 8px;
-  margin-right: 8px;
   background-color: var(--background-color);
   color: var(--text-primery);
   font-size: 11px;
@@ -263,16 +261,8 @@ address {
   justify-content: center;
   align-items: center;
 }
-.close-black {
-  top: 0;
-  right: 0;
-  width: 11px;
-  height: 11px;
-  fill: var(--tittle-text-color);
-}
 .button-modal:hover .button-modal:focus {
   color: var(--theme-color);
-  fill: var(--theme-color);
 }
 .modal-form {
   padding: 40px;
