@@ -266,9 +266,14 @@ address {
 .button-modal:focus {
   color: var(--theme-color);
 }
+.close-black {
+  fill: var(--tittle-text-color);
+}
+.close-black:hover {
+  fill: var(--theme-color);
+}
 .modal-form {
   padding: 40px;
-  margin-top: 12px;
 }
 .modal-forme-lable {
   display: block;
@@ -802,6 +807,7 @@ address {
 }
 .footer-list {
   display: flex;
+  align-items: baseline;
 }
 .link-footer-main {
   display: flex;
@@ -837,7 +843,6 @@ address {
 }
 /*===============footer subscription==========*/
 .subscription {
-  display: flex;
   margin: 0 auto;
   align-items: center;
   text-align: center;
@@ -847,7 +852,7 @@ address {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -857,6 +862,8 @@ address {
 }
 .subscription-form {
   background-color: var(--tittle-text-color);
+  display: flex;
+  align-items: center;
 }
 .subscription-input {
   box-sizing: border-box;
