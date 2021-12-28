@@ -185,6 +185,7 @@ address {
   background-position: center;
   text-align: center;
   max-width: 1600px;
+  margin: 0 auto;
 }
 .section-order-hero {
   width: 696px;
@@ -267,7 +268,9 @@ address {
   color: var(--theme-color);
 }
 .close-black {
-  fill: var(--tittle-text-color);
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
 }
 .close-black:hover {
   fill: var(--theme-color);
