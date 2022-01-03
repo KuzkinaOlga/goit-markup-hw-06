@@ -280,10 +280,13 @@ address {
 }
 .modal-forme-lable {
   display: block;
-  margin-bottom: 28px;
+  margin-bottom: 10px;
   color: var(--text-primery);
   font-size: 12px;
   position: relative;
+}
+.modal-comment {
+  margin-bottom: 25px;
 }
 .title-modal-form {
   font-family: Roboto;
@@ -850,7 +853,6 @@ address {
 .subscription {
   margin: 0 auto;
   align-items: center;
-  text-align: center;
 }
 .subscription-label {
   font-family: Roboto;
